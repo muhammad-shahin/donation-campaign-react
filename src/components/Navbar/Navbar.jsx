@@ -18,7 +18,7 @@ const Navbar = () => {
             isOpen ? "right-0" : "right-[-100%]"
           } duration-500 z-50 top-[105px] pt-5`}
         >
-          <NavLink className="hover:text-[#ff444a] text-[18px] font-semibold" to="/home">
+          <NavLink className="hover:text-[#ff444a] text-[18px] font-semibold" to="/">
             Home
           </NavLink>
           <NavLink className="hover:text-[#ff444a] text-[18px] font-semibold" to="/donation">
