@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
+    "category": "Health",
+    "title": "Clean water for children",
+    "ctg_background_color": "#7FA8FF",
+    "ctg_primary_color": "#0052FF",
+    "donation-amount": 290.0
+  },
+  {
+    "id": 2,
+    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
+    "category": "Health",
+    "title": "Clean water for kids",
+    "ctg_background_color": "#7FA8FF",
+    "ctg_primary_color": "#0052FF",
+    "donation-amount": 180.0
+  },
+  {
+    "id": 3,
+    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
+    "category": "Health",
+    "title": "Healthy living project",
+    "ctg_background_color": "#7FA8FF",
+    "ctg_primary_color": "#0052FF",
+    "donation-amount": 350.0
+  },
+  {
+    "id": 4,
+    "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
+    "category": "Clothing",
+    "title": "Used Clothing Drive",
+    "ctg_background_color": "#EBF6E2",
+    "ctg_primary_color": "#79C23F",
+    "donation-amount": 150.0
+  },
+  {
+    "id": 5,
+    "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
+    "category": "Clothing",
+    "title": "Winter Coat Collection",
+    "ctg_background_color": "#EBF6E2",
+    "ctg_primary_color": "#79C23F",
+    "donation-amount": 180.0
+  },
+  {
+    "id": 6,
+    "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
+    "category": "Clothing",
+    "title": "Dress for Success",
+    "ctg_background_color": "#EBF6E2",
+    "ctg_primary_color": "#79C23F",
+    "donation-amount": 200.0
+  },
+  {
+    "id": 7,
+    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
+    "category": "Education",
+    "title": "Education for Every Children",
+    "ctg_background_color": "#FFE3E4",
+    "ctg_primary_color": "#FF444A",
+    "donation-amount": 420.0
+  },
+  {
+    "id": 8,
+    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
+    "category": "Education",
+    "title": "Support School Supplies",
+    "ctg_background_color": "#FFE3E4",
+    "ctg_primary_color": "#FF444A",
+    "donation-amount": 300.0
+  },
+  {
+    "id": 9,
+    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
+    "category": "Education",
+    "title": "Scholarship Program",
+    "ctg_background_color": "#FFE3E4",
+    "ctg_primary_color": "#FF444A",
+    "donation-amount": 600.0
+  },
+  {
+    "id": 10,
+    "cover_image": "https://i.ibb.co/smhzbct/Food.png",
+    "category": "Food",
+    "title": "Better Food for Everyone",
+    "ctg_background_color": "#FEEAFF",
+    "ctg_primary_color": "#F87147",
+    "donation-amount": 350.0
+  },
+  {
+    "id": 11,
+    "cover_image": "https://i.ibb.co/smhzbct/Food.png",
+    "category": "Food",
+    "title": "Meal Assistance Program",
+    "ctg_background_color": "#FEEAFF",
+    "ctg_primary_color": "#F87147",
+    "donation-amount": 280.0
+  },
+  {
+    "id": 12,
+    "cover_image": "https://i.ibb.co/smhzbct/Food.png",
+    "category": "Food",
+    "title": "Nutrition for Kids",
+    "ctg_background_color": "#FEEAFF",
+    "ctg_primary_color": "#F87147",
+    "donation-amount": 410.0
+  }
+]
