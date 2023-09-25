@@ -1,110 +1,134 @@
 [
   {
-    "id": 1,
-    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
-    "category": "Health",
-    "title": "Clean water for children",
-    "ctg_background_color": "#7FA8FF",
-    "ctg_primary_color": "#0052FF",
-    "donation-amount": 290.0
-  },
-  {
-    "id": 2,
-    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
-    "category": "Health",
-    "title": "Clean water for kids",
-    "ctg_background_color": "#7FA8FF",
-    "ctg_primary_color": "#0052FF",
-    "donation-amount": 180.0
-  },
-  {
-    "id": 3,
-    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
-    "category": "Health",
-    "title": "Healthy living project",
-    "ctg_background_color": "#7FA8FF",
-    "ctg_primary_color": "#0052FF",
-    "donation-amount": 350.0
-  },
-  {
-    "id": 4,
-    "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
-    "category": "Clothing",
-    "title": "Used Clothing Drive",
-    "ctg_background_color": "#EBF6E2",
-    "ctg_primary_color": "#79C23F",
-    "donation-amount": 150.0
+    "id": 11,
+    "cover_image": "https://i.ibb.co/smhzbct/Food.png",
+    "category": "Food",
+    "title": "Meal Assistance Program",
+    "card_bg_color": "#fabda9",
+    "ctg_bg_color": "#fee3da",
+    "ctg_primary_color": "#ff764c",
+    "donation_amount": 290.0,
+    "description": "In the Food category, we are committed to alleviating hunger and promoting better nutrition. Our 'Meal Assistance Program' provides essential meals to individuals and families in need, ensuring that no one goes to bed hungry. 'Better Food for Everyone' focuses on improving access to healthier food options, especially for those in underserved communities. 'Nutrition for Kids' emphasizes nutrition programs designed to support the growth and development of children, as they are the future. Your contributions help us make a positive impact on the lives of those struggling with food insecurity and enable them to lead healthier and happier lives."
   },
   {
     "id": 5,
     "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
     "category": "Clothing",
     "title": "Winter Coat Collection",
-    "ctg_background_color": "#EBF6E2",
+    "card_bg_color": "#e8f5dd",
+    "ctg_bg_color": "#d1f2ba",
     "ctg_primary_color": "#79C23F",
-    "donation-amount": 180.0
+    "donation_amount": 290.0,
+    "description": "In our Clothing category, we are dedicated to making a difference in the lives of those in need. 'Dress for Success' focuses on providing clothing to individuals who are striving to overcome various challenges and need appropriate attire for interviews and work. 'Winter Coat Collection' aims to collect warm winter coats to help those facing the harsh cold weather conditions. 'Used Clothing Drive' gathers gently used clothing to support the less fortunate, ensuring that they have access to clean and wearable clothing items. Your donations make a significant impact on improving the lives of these individuals, allowing them to feel confident and protected"
   },
   {
-    "id": 6,
+    "id": 3,
+    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
+    "category": "Health",
+    "title": "Healthy living project",
+    "card_bg_color": "#7fa8ff",
+    "ctg_bg_color": "#a4bff9",
+    "ctg_primary_color": "#0052ff",
+    "donation_amount": 290.0,
+    "description": "In the Health category, we are dedicated to promoting well-being and access to healthcare. 'Clean water for children' is a crucial initiative to ensure that children have access to clean and safe drinking water, a fundamental need for their health. 'Healthy living project' focuses on promoting healthy lifestyles and wellness in communities, aiming to prevent illness and improve overall health. 'Support for Medical Needs' provides assistance to individuals with medical needs, helping them access necessary treatments and healthcare services. Your contributions in this category are instrumental in improving the health and well-being of individuals, creating healthier and happier communities."
+  },
+  {
+    "id": 4,
     "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
     "category": "Clothing",
-    "title": "Dress for Success",
-    "ctg_background_color": "#EBF6E2",
+    "title": "Used Clothing Drive",
+    "card_bg_color": "#e8f5dd",
+    "ctg_bg_color": "#d1f2ba",
     "ctg_primary_color": "#79C23F",
-    "donation-amount": 200.0
+    "donation_amount": 290.0,
+    "description": "In our Clothing category, we are dedicated to making a difference in the lives of those in need. 'Dress for Success' focuses on providing clothing to individuals who are striving to overcome various challenges and need appropriate attire for interviews and work. 'Winter Coat Collection' aims to collect warm winter coats to help those facing the harsh cold weather conditions. 'Used Clothing Drive' gathers gently used clothing to support the less fortunate, ensuring that they have access to clean and wearable clothing items. Your donations make a significant impact on improving the lives of these individuals, allowing them to feel confident and protected"
   },
   {
     "id": 7,
     "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
     "category": "Education",
     "title": "Education for Every Children",
-    "ctg_background_color": "#FFE3E4",
-    "ctg_primary_color": "#FF444A",
-    "donation-amount": 420.0
+    "card_bg_color": "#ffe8e9",
+    "ctg_bg_color": "#ffdadb",
+    "ctg_primary_color": "#ff444a",
+    "donation_amount": 290.0,
+    "description": "In the Education category, we are dedicated to empowering individuals through knowledge and education. 'Education for Every Children' is our commitment to ensuring that every child has access to quality education, regardless of their circumstances. 'Support School Supplies' gathers essential school supplies to equip underprivileged students with the tools they need to succeed in their studies. Our 'Scholarship Program' aims to make higher education more accessible by offering scholarships to promising students who dream of a brighter future. Your support in this category contributes to the growth and development of individuals and communities, fostering a more educated and empowered society."
   },
   {
-    "id": 8,
-    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
-    "category": "Education",
-    "title": "Support School Supplies",
-    "ctg_background_color": "#FFE3E4",
-    "ctg_primary_color": "#FF444A",
-    "donation-amount": 300.0
-  },
-  {
-    "id": 9,
-    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
-    "category": "Education",
-    "title": "Scholarship Program",
-    "ctg_background_color": "#FFE3E4",
-    "ctg_primary_color": "#FF444A",
-    "donation-amount": 600.0
+    "id": 2,
+    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
+    "category": "Health",
+    "title": "Clean water for kids",
+    "card_bg_color": "#7fa8ff",
+    "ctg_bg_color": "#a4bff9",
+    "ctg_primary_color": "#0052ff",
+    "donation_amount": 290.0,
+    "description": "In the Health category, we are dedicated to promoting well-being and access to healthcare. 'Clean water for children' is a crucial initiative to ensure that children have access to clean and safe drinking water, a fundamental need for their health. 'Healthy living project' focuses on promoting healthy lifestyles and wellness in communities, aiming to prevent illness and improve overall health. 'Support for Medical Needs' provides assistance to individuals with medical needs, helping them access necessary treatments and healthcare services. Your contributions in this category are instrumental in improving the health and well-being of individuals, creating healthier and happier communities."
   },
   {
     "id": 10,
     "cover_image": "https://i.ibb.co/smhzbct/Food.png",
     "category": "Food",
     "title": "Better Food for Everyone",
-    "ctg_background_color": "#FEEAFF",
-    "ctg_primary_color": "#F87147",
-    "donation-amount": 350.0
-  },
-  {
-    "id": 11,
-    "cover_image": "https://i.ibb.co/smhzbct/Food.png",
-    "category": "Food",
-    "title": "Meal Assistance Program",
-    "ctg_background_color": "#FEEAFF",
-    "ctg_primary_color": "#F87147",
-    "donation-amount": 280.0
+    "card_bg_color": "#fabda9",
+    "ctg_bg_color": "#fee3da",
+    "ctg_primary_color": "#ff764c",
+    "donation_amount": 290.0,
+    "description": "In the Food category, we are committed to alleviating hunger and promoting better nutrition. Our 'Meal Assistance Program' provides essential meals to individuals and families in need, ensuring that no one goes to bed hungry. 'Better Food for Everyone' focuses on improving access to healthier food options, especially for those in underserved communities. 'Nutrition for Kids' emphasizes nutrition programs designed to support the growth and development of children, as they are the future. Your contributions help us make a positive impact on the lives of those struggling with food insecurity and enable them to lead healthier and happier lives."
   },
   {
     "id": 12,
     "cover_image": "https://i.ibb.co/smhzbct/Food.png",
     "category": "Food",
     "title": "Nutrition for Kids",
-    "ctg_background_color": "#FEEAFF",
-    "ctg_primary_color": "#F87147",
-    "donation-amount": 410.0
+    "card_bg_color": "#fabda9",
+    "ctg_bg_color": "#fee3da",
+    "ctg_primary_color": "#ff764c",
+    "donation_amount": 290.0,
+    "description": "In the Food category, we are committed to alleviating hunger and promoting better nutrition. Our 'Meal Assistance Program' provides essential meals to individuals and families in need, ensuring that no one goes to bed hungry. 'Better Food for Everyone' focuses on improving access to healthier food options, especially for those in underserved communities. 'Nutrition for Kids' emphasizes nutrition programs designed to support the growth and development of children, as they are the future. Your contributions help us make a positive impact on the lives of those struggling with food insecurity and enable them to lead healthier and happier lives."
+  },
+  {
+    "id": 9,
+    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
+    "category": "Education",
+    "title": "Scholarship Program",
+    "card_bg_color": "#ffe8e9",
+    "ctg_bg_color": "#ffdadb",
+    "ctg_primary_color": "#ff444a",
+    "donation_amount": 290.0,
+    "description": "In the Education category, we are dedicated to empowering individuals through knowledge and education. 'Education for Every Children' is our commitment to ensuring that every child has access to quality education, regardless of their circumstances. 'Support School Supplies' gathers essential school supplies to equip underprivileged students with the tools they need to succeed in their studies. Our 'Scholarship Program' aims to make higher education more accessible by offering scholarships to promising students who dream of a brighter future. Your support in this category contributes to the growth and development of individuals and communities, fostering a more educated and empowered society."
+  },
+  {
+    "id": 1,
+    "cover_image": "https://i.ibb.co/b2JBRg6/Health.png",
+    "category": "Health",
+    "title": "Clean water for children",
+    "card_bg_color": "#7fa8ff",
+    "ctg_bg_color": "#a4bff9",
+    "ctg_primary_color": "#0052ff",
+    "donation_amount": 290.0,
+    "description": "In the Health category, we are dedicated to promoting well-being and access to healthcare. 'Clean water for children' is a crucial initiative to ensure that children have access to clean and safe drinking water, a fundamental need for their health. 'Healthy living project' focuses on promoting healthy lifestyles and wellness in communities, aiming to prevent illness and improve overall health. 'Support for Medical Needs' provides assistance to individuals with medical needs, helping them access necessary treatments and healthcare services. Your contributions in this category are instrumental in improving the health and well-being of individuals, creating healthier and happier communities."
+  },
+  {
+    "id": 8,
+    "cover_image": "https://i.ibb.co/RY5GYF6/Education.png",
+    "category": "Education",
+    "title": "Support School Supplies",
+    "card_bg_color": "#ffe8e9",
+    "ctg_bg_color": "#ffdadb",
+    "ctg_primary_color": "#ff444a",
+    "donation_amount": 290.0,
+    "description": "In the Education category, we are dedicated to empowering individuals through knowledge and education. 'Education for Every Children' is our commitment to ensuring that every child has access to quality education, regardless of their circumstances. 'Support School Supplies' gathers essential school supplies to equip underprivileged students with the tools they need to succeed in their studies. Our 'Scholarship Program' aims to make higher education more accessible by offering scholarships to promising students who dream of a brighter future. Your support in this category contributes to the growth and development of individuals and communities, fostering a more educated and empowered society."
+  },
+  {
+    "id": 6,
+    "cover_image": "https://i.ibb.co/tx730dN/Clothing.png",
+    "category": "Clothing",
+    "title": "Dress for Success",
+    "card_bg_color": "#e8f5dd",
+    "ctg_bg_color": "#d1f2ba",
+    "ctg_primary_color": "#79C23F",
+    "donation_amount": 290.0,
+    "description": "In our Clothing category, we are dedicated to making a difference in the lives of those in need. 'Dress for Success' focuses on providing clothing to individuals who are striving to overcome various challenges and need appropriate attire for interviews and work. 'Winter Coat Collection' aims to collect warm winter coats to help those facing the harsh cold weather conditions. 'Used Clothing Drive' gathers gently used clothing to support the less fortunate, ensuring that they have access to clean and wearable clothing items. Your donations make a significant impact on improving the lives of these individuals, allowing them to feel confident and protected"
   }
 ]

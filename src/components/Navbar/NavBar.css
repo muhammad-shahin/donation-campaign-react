@@ -2,6 +2,17 @@ nav a.active {
   color: #ff444a;
   padding: 5px 15px;
   border-radius: 6px;
-  text-decoration: underline;
-  border-bottom: 10px;
+  position: relative;
+}
+/* custom underline */
+nav a.active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background-color: #ff444a;
+  transition: all 0.5s ease-in;
 }
