@@ -2,7 +2,7 @@ import "./Banner.css";
 import PropTypes from "prop-types";
 const Banner = ({ handleSearchButton, searchInput }) => {
   return (
-    <section className="h-[600px]">
+    <section className="h-[500px]">
       <div className="bg-img text-center bg-opacity-[0.9] h-[600px] absolute top-0 left-0 w-full">
         <div className="bg-white bg-opacity-[0.85] absolute flex justify-center items-center flex-col gap-10 w-full h-full ">
           <h1 className="text-[3rem] font-bold text-[#0B0B0B] mx-auto lg:w-full w-[90%]">
