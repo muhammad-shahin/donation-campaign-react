@@ -1,4 +1,3 @@
-
 import { useLoaderData, useParams } from "react-router-dom";
 import { saveDonatedCategory } from "../../utility/localstorage";
 import Swal from "sweetalert2";
@@ -21,7 +20,10 @@ const DonationDetails = () => {
   const handleDonate = (id) => {
     const setData = saveDonatedCategory(id);
     if (setData) {
-      Swal.fire("You Successfully Donated $290 for this Campaign❤️");
+      Swal.fire({
+        title: "You Successfully Donated $290 for this Campaign❤️",
+        icon: "success",
+      });
     } else {
       Swal.fire(
         "Already Donated",
@@ -32,7 +34,6 @@ const DonationDetails = () => {
   };
 
   return (
- 
     <section className="mb-16 mt-6 container mx-auto space-y-5 lg:w-full w-[90%] lg:px-[10%]">
       <div className="relative w-full mx-auto lg:mx-0">
         <img

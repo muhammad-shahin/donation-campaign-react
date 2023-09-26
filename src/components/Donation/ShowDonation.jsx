@@ -24,7 +24,7 @@ const ShowDonation = ({ donated }) => {
     >
       <div className="lg:w-[350px]  overflow-hidden rounded-l-lg">
         <img
-          className="w-full h-full"
+          className="w-full h-full object-cover"
           src={cover_image}
           alt="Cover Image"
         />

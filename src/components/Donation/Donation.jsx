@@ -5,8 +5,9 @@ import ShowDonation from "./ShowDonation";
 import Swal from "sweetalert2";
 
 const Donation = () => {
-  const donationData = useLoaderData();
   const getStoredData = getStoredDonatedCategory();
+
+  const donationData = useLoaderData();
   const [displayDonated, setDisplayDonated] = useState([]);
   const [dataLength, setDataLength] = useState(4);
   useEffect(() => {
