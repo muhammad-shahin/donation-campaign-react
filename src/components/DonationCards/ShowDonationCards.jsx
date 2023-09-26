@@ -18,11 +18,11 @@ const ShowDonationCards = ({ donation }) => {
   return (
     <div
       style={{ backgroundColor: `${card_bg_color}` }}
-      className={` w-fit rounded-lg cursor-pointer`}
+      className={` w-[350px] rounded-lg cursor-pointer`}
       onClick={handleDonateDetails}
     >
       <div>
-        <img src={cover_image} alt="Cover Image Of Card" />
+        <img className="rounded-t-lg" src={cover_image} alt="Cover Image Of Card" />
       </div>
       <div className="pl-4 py-4 space-y-2">
         <p

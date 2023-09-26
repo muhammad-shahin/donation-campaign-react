@@ -1,8 +1,10 @@
-import React from "react";
+
 import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 
 const ShowDonation = ({ donated }) => {
   const {
+    id,
     cover_image,
     category,
     title,
@@ -11,6 +13,10 @@ const ShowDonation = ({ donated }) => {
     ctg_primary_color,
     donation_amount,
   } = donated;
+  const navigate = useNavigate();
+  const handleDonateDetails = () => {
+    navigate(`/donation-details/${id}`);
+  };
   return (
     <div
       style={{ backgroundColor: `${card_bg_color}` }}
@@ -18,7 +24,7 @@ const ShowDonation = ({ donated }) => {
     >
       <div className="lg:w-[350px]  overflow-hidden rounded-l-lg">
         <img
-          className="w-full h-full object-cover scale-[1.1] lg:scale-[1.3]"
+          className="w-full h-full"
           src={cover_image}
           alt="Cover Image"
         />
@@ -40,6 +46,7 @@ const ShowDonation = ({ donated }) => {
         <button
           className="text-white lg:text-[20px] text-[16px] font-semibold lg:px-5 px-2 py-1 rounded-md cursor-pointer"
           style={{ backgroundColor: `${ctg_primary_color}` }}
+          onClick={handleDonateDetails}
         >
           View Details
         </button>
