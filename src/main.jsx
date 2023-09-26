@@ -5,15 +5,21 @@ import "./index.css";
 import Root from "./components/Root/Root";
 import Home from "./components/Home/Home";
 import DonationDetails from "./components/DonationDetails/DonationDetails";
+import Donation from "./components/Donation/Donation";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Root></Root>,
+    element: <Root />,
     children: [
       {
         path: "/",
-        element: <Home></Home>,
+        element: <Home />,
+      },
+      {
+        path: "/donation",
+        loader: () => fetch("../public/donation.json"),
+        element: <Donation />,
       },
       {
         path: "/donation-details/:categoryId",

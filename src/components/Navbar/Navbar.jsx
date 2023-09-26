@@ -1,16 +1,20 @@
 import Logo from "../../assets/Logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import Hamburger from "hamburger-react";
 import "./NavBar.css";
 import { useState } from "react";
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+  const naviagate = useNavigate();
+  const handleNavigate = () => {
+    naviagate("/");
+  };
   return (
     <header className="lg:bg-transparent bg-[#EBF6E2]">
       <nav className=" container mx-auto flex justify-between items-center lg:py-10 py-4 lg:w-full w-[90%]">
         {/* nav bar logo */}
-        <div>
-          <img src={Logo} alt="" />
+        <div className="cursor-pointer">
+          <img src={Logo} alt="Site Logo" onClick={handleNavigate} />
         </div>
         {/* nav items */}
         <ul
@@ -18,13 +22,22 @@ const Navbar = () => {
             isOpen ? "right-0" : "right-[-100%]"
           } duration-500 z-50 top-[105px] pt-5`}
         >
-          <NavLink className="hover:text-[#ff444a] text-[18px] font-semibold" to="/">
+          <NavLink
+            className="hover:text-[#ff444a] text-[18px] font-semibold"
+            to="/"
+          >
             Home
           </NavLink>
-          <NavLink className="hover:text-[#ff444a] text-[18px] font-semibold" to="/donation">
+          <NavLink
+            className="hover:text-[#ff444a] text-[18px] font-semibold"
+            to="/donation"
+          >
             Donation
           </NavLink>
-          <NavLink className="hover:text-[#ff444a] text-[18px] font-semibold" to="/statistics">
+          <NavLink
+            className="hover:text-[#ff444a] text-[18px] font-semibold"
+            to="/statistics"
+          >
             Statistics
           </NavLink>
         </ul>

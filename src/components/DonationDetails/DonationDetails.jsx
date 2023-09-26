@@ -2,6 +2,7 @@ import coverImage from "../../assets/Educational.webp";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveDonatedCategory } from "../../utility/localstorage";
 
 const DonationDetails = () => {
   const donationData = useLoaderData();
@@ -11,10 +12,20 @@ const DonationDetails = () => {
   );
   const { title, description, ctg_primary_color, donation_amount } =
     donationDetails[0];
-  console.log(donationDetails);
 
-  // handle toast
-  const notify = () => toast.success("You Successfully Donated $290");
+  // handle donate
+  const handleDonate = (id) => {
+    const setData = saveDonatedCategory(id);
+    console.log(setData);
+    if (setData) {
+      toast.success("You Successfully Donated $290 for this Campaign❤️");
+    } else {
+      toast.info(
+        "You Have Already Donated for this Campaign ❤️ You can Donate to other Campaign Now ❤️"
+      );
+    }
+  };
+
   return (
     <section className="mb-16 mt-6 container mx-auto space-y-5 lg:w-full w-[90%] lg:px-[10%]">
       <div className="relative w-full mx-auto lg:mx-0">
@@ -23,14 +34,18 @@ const DonationDetails = () => {
           <button
             className="text-white lg:text-[20px] text-[16px] font-semibold lg:px-5 px-2 py-1 lg:py-2 rounded-md ml-10"
             style={{ backgroundColor: `${ctg_primary_color}` }}
-            onClick={notify}
+            onClick={() => {
+              handleDonate(categoryId);
+            }}
           >
             Donate ${donation_amount}
           </button>
         </div>
       </div>
       <div className="space-y-4">
-        <h1 className="lg:text-[2.4rem] text-[1.8rem] font-bold text-[#0B0B0B]">{title}</h1>
+        <h1 className="lg:text-[2.4rem] text-[1.8rem] font-bold text-[#0B0B0B]">
+          {title}
+        </h1>
         <p className="lg:text-[18px] text-[#272626e0] text-justify">
           {description}
         </p>
@@ -39,5 +54,6 @@ const DonationDetails = () => {
     </section>
   );
 };
+
 
 export default DonationDetails;

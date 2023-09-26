@@ -11,7 +11,7 @@ const DonationCards = () => {
   }, []);
   console.log(donations);
   return (
-    <section className="container mx-auto grid grid-cols-4 justify-center gap-6">
+    <section className="container mx-auto grid lg:grid-cols-4 justify-center gap-6 my-10">
       {donations.map((donation) => (
         <ShowDonationCards key={donation.id} donation={donation} />
       ))}
