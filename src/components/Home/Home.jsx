@@ -1,11 +1,45 @@
+import { useEffect, useRef, useState } from "react";
 import Banner from "../Banner/Banner";
 import DonationCards from "../DonationCards/DonationCards";
+import { ToastContainer, toast } from "react-toastify";
 
 const Home = () => {
+  const [displayDonationCards, setDisplayDonationCards] = useState([]);
+
+  useEffect(() => {
+    fetch("donation.json")
+      .then((res) => res.json())
+      .then((data) => setDisplayDonationCards(data));
+  }, []);
+  const searchInput = useRef(null);
+  const handleSearchButton = () => {
+    function capitalizeFirstLetter(str) {
+      return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+    const input = searchInput.current.value.toLowerCase();
+    const categoryName = capitalizeFirstLetter(input);
+    if (
+      input === "food" ||
+      input === "education" ||
+      input === "health" ||
+      input === "clothing"
+    ) {
+      const searchedCategory = displayDonationCards.filter(
+        (donation) => donation.category === categoryName
+      );
+      setDisplayDonationCards(searchedCategory);
+    } else {
+      toast.info("Category Not Found");
+    }
+  };
   return (
     <section className="">
-      <Banner />
-      <DonationCards />
+      <Banner
+        handleSearchButton={handleSearchButton}
+        searchInput={searchInput}
+      />
+      <ToastContainer autoClose={3000} />
+      <DonationCards displayDonationCards={displayDonationCards} />
     </section>
   );
 };

@@ -10,7 +10,7 @@ const Navbar = () => {
     naviagate("/");
   };
   return (
-    <header className="lg:bg-transparent bg-[#EBF6E2]">
+    <header className="lg:bg-transparent bg-[#EBF6E2] relative z-50">
       <nav className=" container mx-auto flex justify-between items-center lg:py-10 py-4 lg:w-full w-[90%]">
         {/* nav bar logo */}
         <div className="cursor-pointer">
