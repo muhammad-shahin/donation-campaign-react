@@ -1,6 +1,7 @@
+import React from "react";
 import PropTypes from "prop-types";
-import CanvasJSReact from "@canvasjs/react-charts";
-var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+// import CanvasJSReact from "@canvasjs/react-charts";
+// var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 const ShowStatistics = ({ yourDonation, totalDonation }) => {
   const options = {
     exportEnabled: true,

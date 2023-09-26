@@ -1,11 +1,12 @@
 import { PieChart, Pie, Cell } from "recharts";
 import { getStoredDonatedCategory } from "../../utility/localstorage";
 
+
 const storedDonatedData = getStoredDonatedCategory();
 
 const data = [
-  { name: "Group B", value: 12 - storedDonatedData.length },
   { name: "Group A", value: storedDonatedData.length || 0 },
+  { name: "Group B", value: 12 - storedDonatedData.length },
 ];
 
 const COLORS = ["#0088FE", "#00C49F"];
@@ -38,7 +39,7 @@ const renderCustomizedLabel = ({
 
 const App = () => {
   return (
-    <div className="lg:w-fit w-[90%] cursor-pointer container mx-auto">
+    <div>
       <PieChart width={400} height={400}>
         <Pie
           data={data}
