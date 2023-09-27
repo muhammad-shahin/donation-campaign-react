@@ -1,4 +1,3 @@
-
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 
@@ -31,8 +30,11 @@ const ShowDonation = ({ donated }) => {
       </div>
       <div className="p-5 lg:space-y-3">
         <p
-          className={`px-2 py-0 rounded font-medium text-[18px] w-fit text-[${ctg_primary_color}]`}
-          style={{ backgroundColor: `${ctg_bg_color}` }}
+          className={`px-2 py-0 rounded font-medium text-[18px] w-fit`}
+          style={{
+            backgroundColor: `${ctg_bg_color}`,
+            color: `${ctg_primary_color}`,
+          }}
         >
           {category}
         </p>
