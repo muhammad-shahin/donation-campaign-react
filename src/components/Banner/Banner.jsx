@@ -4,7 +4,7 @@ const Banner = ({ handleSearchButton, searchInput }) => {
   return (
     <section className="h-[500px]">
       <div className="bg-img text-center bg-opacity-[0.9] h-[600px] absolute top-0 left-0 w-full">
-        <div className="bg-white bg-opacity-[0.85] absolute flex justify-center items-center flex-col gap-10 h-full container mx-auto w-full">
+        <div className="bg-white bg-opacity-[0.85] absolute flex justify-center items-center flex-col gap-10 h-full w-full">
           <h1 className="text-[2.2rem] lg:text-[3rem] font-bold text-[#0B0B0B] text-center">
             I Grow By Helping People In Need
           </h1>

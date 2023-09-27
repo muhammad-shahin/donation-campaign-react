@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import Banner from "../Banner/Banner";
 import DonationCards from "../DonationCards/DonationCards";
-import { ToastContainer, toast } from "react-toastify";
+import Swal from "sweetalert2";
 
 const Home = () => {
   const [displayDonationCards, setDisplayDonationCards] = useState([]);
@@ -29,7 +29,11 @@ const Home = () => {
       );
       setDisplayDonationCards(searchedCategory);
     } else {
-      toast.info("Category Not Found");
+      Swal.fire(
+        "Category Not Found",
+        "The Category You are Looking for is Not Found in Our Database.",
+        "error"
+      );
     }
   };
   return (
@@ -38,7 +42,6 @@ const Home = () => {
         handleSearchButton={handleSearchButton}
         searchInput={searchInput}
       />
-      <ToastContainer autoClose={3000} />
       <DonationCards displayDonationCards={displayDonationCards} />
     </section>
   );
