@@ -8,7 +8,7 @@ const Banner = ({ handleSearchButton, searchInput }) => {
           <h1 className="text-[2.2rem] lg:text-[3rem] font-bold text-[#0B0B0B] mx-auto lg:w-full w-[90%]">
             I Grow By Helping People In Need
           </h1>
-          <div className="relative h-[3rem] mx-auto px-[5%] text-[18px]">
+          <div className="relative h-[3rem] mx-auto lg:w-fit w-[90%] text-[18px]">
             <input
               type="text"
               className="lg:w-[350px] placeholder:text-[#9D9D9D] text-[#ff444a] px-5 rounded-lg font-medium border-2 border-[#9D9D9D] rounded-r-none border-r-0 outline-0 h-full"
