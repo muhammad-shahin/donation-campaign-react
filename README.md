@@ -1,5 +1,6 @@
-
 # Donation Campaign Website
+
+![Donation Campaign Screenshot](https://i.ibb.co/nBnTtZC/assignment-8-project-showcase.png)
 
 Welcome to Donation Campaign Website, Donation Campaign is React Base Website where it's user can donate for different categories. Here are some of the top features that make our website stand out:
 
